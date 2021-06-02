@@ -30,7 +30,7 @@ float wallis_pi(int j) {
             py *= num/(num-1);
       }
            return py*2;  
-} 
+}  
 
       
 
