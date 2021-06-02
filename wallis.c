@@ -29,8 +29,8 @@ float wallis_pi(int j) {
            float num = 4.0*i*i;
             py *= num/(num-1);
       }
-           return py*2; 
-}
+           return py*2;  
+} 
 
       
 
