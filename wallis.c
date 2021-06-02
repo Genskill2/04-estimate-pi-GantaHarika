@@ -23,4 +23,14 @@ int main(void) {
     }
   }
 }
+float wallis_pi(int j) {
+float py=1.0;
+for (int i=0;i<j;i++) {
+float num = 4.0*i*i;
+py *= num/(num-1);
+}
+return py*2;
+}
+
+      
 
