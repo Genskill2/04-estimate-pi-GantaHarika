@@ -43,9 +43,9 @@ int main(void) {
         float x,y,Pi;
            for (i=0;i<n;i++) {
                x = frandom();
-               x = x*2 - 1;
-               y = frandom();
-               y = y*2 - 1;
+               
+                y = frandom();
+           
                 if(x*x + y*y<=1) {
                  count++;
                   }
