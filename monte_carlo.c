@@ -46,7 +46,7 @@ int main(void) {
                x = x*2 - 1;
                y = frandom();
                y = y*2 - 1;
-                if(x*x + y*y<1) {
+                if(x*x + y*y<=1) {
                  count++;
                   }
            }
