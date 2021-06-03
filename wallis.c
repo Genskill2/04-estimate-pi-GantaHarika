@@ -32,5 +32,3 @@ float wallis_pi(int count) {
            return py*2;  
 }   
 
-      
-
