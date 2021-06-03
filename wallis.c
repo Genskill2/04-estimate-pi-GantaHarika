@@ -31,6 +31,6 @@ float wallis_pi(int count) {
            temp = numerator/denominator;
             py = py*temp;
       }
-           return py*2;  
+           return py*2; 
 }   
 
