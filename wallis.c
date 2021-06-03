@@ -24,10 +24,12 @@ int main(void) {
   }
 }
 float wallis_pi(int count) {
-      float py=1.0;
+      float py=1, numerator, denominator,temp;
        for (int i=1;i<=count;i++) {
-           float num = 4.0*i*i;
-            py *= num/(num-1);
+           numerator = 4*(i*i);
+           denominator = (4*(i*i)-1);
+           temp = numerator/denominator;
+            py = py*temp;
       }
            return py*2;  
 }   
