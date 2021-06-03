@@ -53,6 +53,3 @@ int main(void) {
        Pi = (float) count/4*n;
                return Pi;
        }
-
-
-
